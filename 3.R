@@ -1,26 +1,19 @@
 #H0 : mu <= 5
 #H1 : mu > 5
+
 x.bar = 6.7
-print(x.bar)
-mu = 5
-print(mu)
 sd = 7.1
-print(sd)
-n = 29
-print(n)
-Z = (x.bar - mu) / (sd/sqrt(n))
-print(Z)
 alpha = 0.05
-print(alpha)
-Ztab = qnorm(0.05,lower.tail = FALSE)
-print(Ztab)
-pvalue = pnorm(Z,lower.tail = FALSE)
+mu = 5
+n = 29
+z = (x.bar - mu) / (sd/sqrt(n))
+ztab = qnorm(alpha,lower.tail = FALSE)
+#ztab > z Ho accepted
+pvalue = pnorm(z,lower.tail = FALSE)
 print(pvalue)
-Ztab1 = qnorm(0.025)
-print(Ztab1)
-Ztab2 = qnorm(0.975)
-print(Ztab2)
-p.value = 2*pnorm(Z,lower.tail = FALSE)
-print(p.value)
-CI = c(x.bar + Ztab1*sd/sqrt(n),x.bar+Ztab2*sd/sqrt(n))
-print(CI)
+# pvalue > alpha Ho accepted
+ztab1 = qnorm(alpha/2)
+ztab2 = qnorm(1-alpha/2)
+
+p.value = 2*pnorm(z,lower.tail = FALSE)
+CI = c(x.bar+ztab1*sd/sqrt(n),x.bar + ztab2*sd/sqrt(n))
