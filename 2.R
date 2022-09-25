@@ -1,22 +1,29 @@
-S = 2 : 12
-A = c(1:6,5:1)
-PS = c(1:6,5:1)/36
-ES = sum(S*PS)
-print(ES)
-vars = sum((S - c(ES))^2*PS)
-print(vars)
-barplot(PS,
-         ylim = c(0,0.2),
-         ylab = "Probability",
-         xlab = "S",
-         col = "steelblue",
-         space = 0,
-         main = "sum of two dice rolls")
-probability = rep(1/6,6)
-names(probability) = 1 : 6
-barplot(probability,
+#vector of outcomes
+s = 2:12
+#vector of probabilities
+ps = c(1:6,5:1)/36
+names(ps) = c(1:6,5:1)
+#E(x)
+E = sum(s*ps)
+#varience
+vars = sum((s-E)^2*ps)
+#plot of the distribution s
+par(mfrow = c(1,2))
+barplot(ps,
         ylim = c(0,0.2),
+        ylab = "Probability",
+        xlab = "S",
+        col = "steelblue",
+        space = 0,
+        main = "Sum of two dice Rolls")
+D=rep(1/6,6)
+names(D)=1:6
+
+# plot of the distribution of D
+barplot(D,
+        ylim = c(0,0.2),
+        ylab = "Probability",
         xlab = "D",
         col = "steelblue",
         space = 0,
-        main = "outcomes of single dice rolls")
+        main = "Outcomes of a single dice roll")
