@@ -1,0 +1,87 @@
+1
+Find out the point estimate of the population mean and interval estimate of the population mean. Where 30 students quiz test marks is
+(2,4,3,23,25,27,28,13,15,16,20,14,35,33,32,21,35,40,42,22,33,13,17,20,25,29,27,40,38,31)
+Total marks 50. Here population size N=30 and sample size n=10.also illustrate the sample size determination, sampling distribution for mean and check the unbiasedness of the population mean.
+
+
+2
+Two dice rolled, S is the sum of both faces, Find the expectation of S, E(s) and variance of S, V(s).Plot the distribution of S and dice D.
+
+
+3
+A herd of 1500 steer was fed a special high protein gain for a month. A random sample of 29 was weighted and had gained an average of 6.7 pounds. If the sd of weight gain for the entire herd is 7.1.
+Test the hypothesis at 5% level of significance that the average weight gain per steer for the month was more than 5 pounds. Also comments on the test using the p-value. Create the confidence interval.
+
+
+4
+In order to find out whether children with chronic diarrhea have the same average hemoglobin level(HB) that is normally seen in healthy children in the same area, a random sample of 10 children with Chronic diarrhea are selected, and their HB levels <g/dl) are obtained as follows: 
+  
+  12.3, 11.4, 14.2, 15.3, 14.8, 13.8, 11.1, 15.1, 15.8, 13.2.
+Do the data provide sufficient evidence to indicate that the mean HB level for children with chronic diarrhea is less than the normal value of 14.6 (g/dl)? Test at 0.01 level of significance. Draw a boxplot and normal plot for this data and comments.
+
+
+
+5
+In order to find out whether children with chronic diarrhea have the same average hemoglobin level(HB) that is normally seen in healthy children in the same area, a random sample of 10 children with chronic diarrhea are selected, and their HB levels <g/dl are obtained as follows: 12.3, 11.4,14,2, 15.3, 14.8, 13.8, 11.1,15.1,15.8,13.2 .Another random sample of 12 children with chronic diarrhea are 11.1, 17.2, 13.4, 15.2, 14.1, 13.0,12.5, 11.5, 12.7, 14.5, 15.3, 14.0.
+Is there any difference in the mean HB label between the two groups of children???
+  
+  
+  6
+Test the hypothesis that the mean systolic blood pressure of healthy subjects (status-0) and subject with hypertension
+(status-1) are equal, have do= 0. The dataset contains n1= 25 subjects with status-0 and n2= 30 with status-1.
+Status-0: (120, 115, 94, 118, 111, 102, 102, 131, 104, 107, 115, 139, 115, 113, 114, 105, 115, 134,109, 109, 93, 118, 109, 106, 125).
+Status-1: (150, 142, 119, 127, 141, 149, 144, 142, 149, 161, 143, 140, 148, 149, 141, 146, 159, 152,135, 134, 161, 130, 125, 141, 148, 153, 145, 137, 147, 169).
+
+
+7
+The 126 people have some doing smoking and some do not smoke. Some of this type of data are tabulated is given below:
+  
+  Diseases
+Smoking
+Heart disses
+Not heart disses
+Total
+YES
+55
+16
+71
+No
+23
+32
+55
+Total
+78
+48
+N=126
+Is there any association between smoking and heart disses for the given data???
+  
+  
+  8
+There are two COVID-19 testing booths, we test some people and their recorded data is below, where the numbers of people of booth-1 are 11 and the numbers of people of booth-2 are 10:
+  Booth-1: positive, positive, negative, positive, negative, negative, positive, positive, positive, negative, positive.
+Both-2: negative, negative, negative, positive, positive, negative, positive, negative, negative, negative.
+Is there any relation between two both???
+  
+  
+  9
+The number of systolic blood pressure of healthy subjects. The data set contains n=25. 
+120, 115, 94, 118, 111, 102, 102, 131, 104, 107, 115, 139, 115, 113, 114, 105, 115, 134,109, 109, 93, 118, 109, 106, 125.
+Do you think that the sample follows N(µ,400)
+
+
+10
+Test the hypothesis that the mean systolic blood pressure of healthy subjects (status-0) and subject with hypertension (status-1) are equal, have do= 0. The dataset contains n1= 25 subjects with status-0 and n2= 30 with status-1.
+Status-0: (120, 115, 94, 118, 111, 102, 102, 131, 104, 107, 115, 139, 115, 113, 114, 105, 115, 134,109, 109, 93, 118, 109, 106, 125).
+Status-1: (150, 142, 119, 127, 141, 149, 144, 142, 149, 161, 143, 140, 148, 149, 141, 146, 159, 152,135, 134, 161, 130, 125, 141, 148,153, 145, 137, 147, 169).
+Are the variations in systolic blood pressure of healthy subjects with hypertension are same?
+  
+  11
+The sample observation are 122,145,120,45,98,67,109,100,107,106,93,125,130,90,34,108,80,48,65,56.The test hypothesis at 5% level of significance that the test of median .Do you think that the median is 110?
+  
+
+  12
+Test the hypothesis that the median systolic blood pressure of healthy subjects (status-0) and subject with hypertension (status-1) are equal, have do= 0. The dataset contains n1= 25 subjects with status-0 and n2= 30 with status-1.
+Status-0: (120, 115, 94, 118, 111, 102, 102, 131, 104, 107, 115, 139, 115, 113, 114, 105, 115, 134,109, 109, 93, 118, 109, 106, 125).
+Status-1: (150, 142, 119, 127, 141, 149, 144, 142, 149, 161, 143, 140, 148, 149, 141, 146, 159, 152,135, 134, 161, 130, 125, 141, 148, 153, 145, 137, 147, 169).
+Is there any difference in the median between status-0 and status-1?
+  
